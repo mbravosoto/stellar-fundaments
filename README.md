@@ -1,8 +1,8 @@
-🌟 ## **Stellar SDK Scripts - CLASS 2**
+## 🌟 **Stellar SDK Scripts - CLASS 2**
 
 This repository contains a collection of JavaScript scripts for interacting with the Stellar Testnet using the @stellar/stellar-sdk package. It includes functionality for creating accounts, funding them, sending payments, and checking balances.
 
-📁 ## **Project Structure**
+## 📁 **Project Structure**
 ```bash 
 .
 ├── hello-contract
@@ -17,13 +17,13 @@ This repository contains a collection of JavaScript scripts for interacting with
 ├── readme.md
 ```
 
-🚀 ## **Requirements**
+## 🚀 **Requirements**
 
 Node.js (v18 or higher recommended)
 Internet connection (to interact with Horizon and Friendbot)
 Stellar SDK: install with ```bash npm install @stellar/stellar-sdk```
 
-🛠️ ## **Available Scripts**
+## 🛠️ **Available Scripts**
 
 1. **crear-cuenta.js**
 
@@ -69,7 +69,7 @@ Expected output:
 
 ![Consultar Balances](img/consultar-balances.png)
 
-📦 ## **Additional Notes**
+## 📦 **Additional Notes**
 * All scripts use the Stellar Testnet.
 * Get free XLM for testing from Friendbot
 * Trustlines allow an account to hold non-XLM assets. These are automatically counted in consultar-balances.js.
