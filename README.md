@@ -20,7 +20,9 @@ This repository contains a collection of JavaScript scripts for interacting with
 ## 🚀 **Requirements**
 
 Node.js (v18 or higher recommended)
+
 Internet connection (to interact with Horizon and Friendbot)
+
 Stellar SDK: install with ```bash npm install @stellar/stellar-sdk```
 
 ## 🛠️ **Available Scripts**
@@ -44,6 +46,7 @@ Expected output:
 Sends XLM payments from a source account to a list of recipients defined in the DESTINATIONS array.
 
 Before running:
+
 Make sure SECRET_KEY contains the secret key of a funded source account and DESTINATIONS contains the public keys, memo and amount to be transfered.
 
 Run: ```node enviar-pagos.js```
