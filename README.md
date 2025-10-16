@@ -29,7 +29,7 @@ Stellar SDK: install with ```bash npm install @stellar/stellar-sdk```
 
 Generates multiple random Stellar accounts receiving the number of accounts desired in accounts variable. Then it funds them using Friendbot, and saves their keys and balances to a accounts.json file. 
 
-Run: ```bash node crear-cuentas.js```
+Run: ```node crear-cuentas.js```
 
 Expected output:
 * Public and secret keys
@@ -46,7 +46,7 @@ Sends XLM payments from a source account to a list of recipients defined in the 
 Before running:
 Make sure SECRET_KEY contains the secret key of a funded source account and DESTINATIONS contains the public keys, memo and amount to be transfered.
 
-Run: ```bash node enviar-pagos.js```
+Run: ```node enviar-pagos.js```
 
 Features:
 * Verifies balance before each payment
@@ -59,7 +59,7 @@ Features:
 
 Checks balances, trustlines, and sequence numbers for a list of accounts.
 
-Run: ``` bash node consultar-balances.js```
+Run: ```node consultar-balances.js```
 
 Expected output:
 * XLM balance
