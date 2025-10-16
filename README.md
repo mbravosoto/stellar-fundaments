@@ -2,6 +2,7 @@
 This repository contains a collection of JavaScript scripts for interacting with the Stellar Testnet using the @stellar/stellar-sdk package. It includes functionality for creating accounts, funding them, sending payments, and checking balances.
 
 📁 Project Structure
+```bash 
 .
 ├── hello-contract
 ├── javascript-sdk
@@ -13,6 +14,7 @@ This repository contains a collection of JavaScript scripts for interacting with
 │   ├── package.json           # JSON file generated with created account data
 ├── stellar-cli
 ├── readme.md
+```
 
 🚀 Requirements
 Node.js (v18 or higher recommended)
