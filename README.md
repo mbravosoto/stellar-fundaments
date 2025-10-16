@@ -1,4 +1,5 @@
 🌟 Stellar SDK Scripts - CLASS 2
+
 This repository contains a collection of JavaScript scripts for interacting with the Stellar Testnet using the @stellar/stellar-sdk package. It includes functionality for creating accounts, funding them, sending payments, and checking balances.
 
 📁 Project Structure
@@ -17,6 +18,7 @@ This repository contains a collection of JavaScript scripts for interacting with
 ```
 
 🚀 Requirements
+
 Node.js (v18 or higher recommended)
 Internet connection (to interact with Horizon and Friendbot)
 Stellar SDK: install with ```bash npm install @stellar/stellar-sdk```
@@ -24,6 +26,7 @@ Stellar SDK: install with ```bash npm install @stellar/stellar-sdk```
 🛠️ Available Scripts
 
 1. crear-cuenta.js
+
 Generates multiple random Stellar accounts receiving the number of accounts desired in accounts variable. Then it funds them using Friendbot, and saves their keys and balances to a accounts.json file. 
 
 Run: ```bash node crear-cuentas.js```
@@ -37,6 +40,7 @@ Expected output:
 ![Crear Cuenta](img/crear-cuentas.png)
 
 2. enviar-pagos.js
+
 Sends XLM payments from a source account to a list of recipients defined in the DESTINATIONS array.
 
 Before running:
@@ -52,6 +56,7 @@ Features:
 ![Enviar Pagos](img/enviar-pagos.png)
 
 3. consultar-balances.js
+
 Checks balances, trustlines, and sequence numbers for a list of accounts.
 
 Run: ``` bash node consultar-balances.js```
